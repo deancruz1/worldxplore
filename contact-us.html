@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Xplore | Contact Us</title>
+  <link href="./css/styles.css" type="text/css" rel="stylesheet" />
+  <link href="./assets/logo.svg" type="image/x-icon" rel="icon" />
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <img src="./assets/logo.svg" alt="WX Logo" id="logo" />
+      <div class="nav-title text-uppercase">World<span style="color:red;">X</span>plore</div>
+    </div>
+    <ul class="nav-menu">
+      <li class="nav-item"><a href="./index.html">Home</a></li>
+      <li class="nav-item dropdown">
+        <a href="#articles">Package Tours</a>
+        <div class="dropdown-content">
+          <a href="#">Bali</a>
+          <a href="./hokkaido.html">Hokkaido</a>
+          <a href="#">Netherlands</a>
+        </div>
+      </li>
+      <li class="nav-item"><a href="#articles">Rediscover Singapore</a></li>
+      <li class="nav-item"><a href="#articles">Cruises</a></li>
+      <li class="nav-item"><a href="./contact-us.html" id="active">Contact Us</a></li>
+    </ul>
+  </nav>
+  <!--Hero-->
+  <section class="hero" id="hero">
+    <div class="video-background">
+      <img src="./assets/contact-us/wallpaper.jpg" />
+  </div>
+    <div class="contact-container">
+      <h1 class="contact-header text-uppercase text-white">Contact Us</h1>
+      <form action="#" method="#">
+        <div class="input">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="input">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+  <!--Footer-->
+  <footer class="footer">
+    <h1>Phone: +65 6565 6565</h1>
+    <h1>Email: info@worldxplore.com</h1>
+  </footer>
+</body>
+
+</html>
