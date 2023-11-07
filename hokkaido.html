@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Xplore | Hokkaido</title>
+  <link href="./css/styles.css" type="text/css" rel="stylesheet" />
+  <link href="./assets/logo.svg" type="image/x-icon" rel="icon" />
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <img src="./assets/logo.svg" alt="WX Logo" id="logo" />
+      <div class="nav-title text-uppercase">World<span style="color:red;">X</span>plore</div>
+    </div>
+    <ul class="nav-menu">
+      <li class="nav-item"><a href="./index.html">Home</a></li>
+      <li class="nav-item dropdown">
+        <a href="#articles" id="active">Package Tours</a>
+        <div class="dropdown-content">
+          <a href="#">Bali</a>
+          <a href="./hokkaido.html">Hokkaido</a>
+          <a href="#">Netherlands</a>
+        </div>
+      </li>
+      <li class="nav-item"><a href="#articles">Rediscover Singapore</a></li>
+      <li class="nav-item"><a href="#articles">Cruises</a></li>
+      <li class="nav-item"><a href="#articles">Contact Us</a></li>
+    </ul>
+  </nav>
+  <!--Hero-->
+  <section class="dest-page">
+    <div class="video-background">
+      <video autoplay="" muted="" loop="">
+        <source src="./assets/hokkaido/wallpaper.mp4" type="video/mp4">
+      </video>
+    </div>
+    <h1 class="text-uppercase dest-header">Hokkaido</h1>
+    <a href="#articles" class="articles-button dest-btn" id="articles-button">
+      <div class="link text-uppercase">Explore</div>
+    </a>
+  </section>
+  <!--Articles-->
+  <section class="articles red-border" id="articles">
+    <div class="video-background">
+      <img src="./assets/hokkaido/articles.jpg" />
+    </div>
+    <h1 class="text-uppercase text-white">Sights and Wonders of Hokkaido</h1>
+    <div class="articles-container red-border">
+      <article class="article-main red-border" id="article-hokkaido">
+        <a href="#">
+          <img src="./assets/hokkaido/card1.jpg">
+          <div class="dest-overlay">
+            <div class="overlay-content">
+              <div class="text-white overlay-desc">The cherry blossoms in Hokkaido bloom around the late April to the
+                mid May due to the cold climate. There are loads of nice places to enjoy the pink-color sakura viewing
+                around the north prefecture.
+              </div>
+              <h1 class="text-white text-uppercase">Sakura Trees</h1>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="article-main red-border" id="article2">
+        <a href="#">
+          <img src="./assets/hokkaido/card2.jpg">
+          <div class="dest-overlay">
+            <div class="overlay-content">
+              <div class="text-white overlay-desc">Asahiyama Zoo (旭山動物園) is a popular zoological park located outside of
+                Asahikawa City. The zoo displays various kinds of animals including native wildlife from Hokkaido such
+                as deer, eagles and red foxes as well as animals from around the world such as penguins, polar bear,
+                tiger, leopard, giraffes, lion and more.
+              </div>
+              <h1 class="text-white text-uppercase">Asahiyama</h1>
+            </div>
+          </div>
+        </a>
+      </article>
+      <article class="article-main red-border" id="article3">
+        <a href="#">
+          <img src="./assets/hokkaido/card3.jpg">
+          <div class="dest-overlay">
+            <div class="overlay-content">
+              <div class="text-white overlay-desc">Susukino (すすきの), located in the center of Sapporo, is a perfect place
+                to have a pleasant evening in Hokkaido. The red-light district symbolized by the large Nikka Whiskey
+                sign is known as one of the biggest nightlife towns in Japan.
+              </div>
+              <h1 class="text-white text-uppercase">Susukino</h1>
+            </div>
+          </div>
+        </a>
+      </article>
+    </div>
+  </section>
+  <!--Footer-->
+  <footer class="footer">
+    <h1>Phone: +65 6565 6565</h1>
+    <h1>Email: info@worldxplore.com</h1>
+  </footer>
+</body>
+
+</html>
