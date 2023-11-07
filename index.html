@@ -13,12 +13,20 @@
     <!--Navbar-->
     <nav class="navbar">
         <div class="navbar-logo">
-            <img src="./assets/logo.svg" alt="WX Logo" />
+            <img src="./assets/logo.svg" alt="WX Logo" id="logo" />
             <div class="nav-title text-uppercase">World<span style="color:red;">X</span>plore</div>
         </div>
         <ul class="nav-menu">
-            <li class="nav-item"><a href="#">Home</a></li>
-            <li class="nav-item"><a href="#articles">Package Tours</a></li>
+            <li class="nav-item"><a href="#" id="active">Home</a></li>
+            <li class="nav-item dropdown">
+                <a href="#articles">Package Tours</a>
+                <div class="dropdown-content">
+                    <p>Hello World!</p>
+                    <p>Hello World!</p>
+                    <p>Hello World!</p>
+
+                </div>
+            </li>
             <li class="nav-item"><a href="#articles">Rediscover Singapore</a></li>
             <li class="nav-item"><a href="#articles">Cruises</a></li>
             <li class="nav-item"><a href="#articles">Contact Us</a></li>
@@ -63,9 +71,9 @@
     <!--Articles-->
     <section class="articles red-border" id="articles">
         <div class="video-background">
-            <img src="./assets/destinations.jpg"/>
+            <img src="./assets/destinations.jpg" />
         </div>
-        <h1 class="text-uppercase text-white">Package Tours</h1>
+        <h1 class="text-uppercase text-white">Destinations</h1>
         <div class="articles-container red-border">
             <article class="article-main red-border" id="article1">
                 <img src="./assets/destinations/bali.jpg" alt="Bali">
