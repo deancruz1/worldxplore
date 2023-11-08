@@ -350,7 +350,7 @@ body {
 .dest-header {
     position: absolute;
     font-size: 18vw;
-    background-image: url('/assets/hokkaido/wallpaper.jpg');
+    background-image: url('../assets/hokkaido/wallpaper.jpg');
     background-size: cover;
     background-clip: text;
     -webkit-background-clip: text;
