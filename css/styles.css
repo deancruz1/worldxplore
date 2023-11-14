@@ -514,7 +514,7 @@ button {
     }
 
     .article-main img {
-        height: 23vh;
+        height: 20vh;
         width: 70vw;
     }
 
@@ -599,5 +599,19 @@ button {
     .nav-menu li {
         display: block;
         border-bottom: 1px solid #ccc;
+    }
+
+    .dest-overlay {
+        display: none;
+    }
+
+    .articles-button:hover {
+        background: grey;
+        transform: scale(1);
+    }
+    
+    .article-main:hover img {
+        transform: scale(1);
+        box-shadow: 0 0 30px #647ba1;
     }
 }
