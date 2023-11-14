@@ -431,6 +431,17 @@ button {
     display: none;
 }
 
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    margin: 0.5rem 1rem;
+}
+
 /* styles for small screens */
 @media only screen and (min-width: 1px) and (max-width: 1024px) {
     .img-bg {
@@ -536,7 +547,8 @@ button {
     }
 
     .nav-menu li a {
-        padding: .8rem .4rem;
+        padding: .5rem;
+        font-size: .8rem;
     }
 
     .dest-btn {
@@ -559,7 +571,33 @@ button {
     input, textarea {
         width: 70vw;
     }
-}
 
-/* styles for medium screens */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {}
+    .menu-toggle:checked + .menu-icon + .nav-menu {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        width: 50%;
+        background: white;
+    }
+
+    .menu-toggle:checked + .menu-icon + .nav-menu li {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-menu li {
+        display: block;
+        border-bottom: 1px solid #ccc;
+    }
+}
